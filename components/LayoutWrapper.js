@@ -1,5 +1,4 @@
-import { useState, useEffect, useRef } from 'react'
-
+import Logo from '@/data/logo.svg'
 import headerNavLinks from '@/data/headerNavLinks'
 import Link from './Link'
 import SectionContainer from './SectionContainer'
@@ -7,7 +6,6 @@ import Footer from './Footer'
 import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
 import { useRouter } from 'next/router'
-import Typewriter from 'typewriter-effect'
 
 const LayoutWrapper = ({ children }) => {
   const router = useRouter()
@@ -18,16 +16,7 @@ const LayoutWrapper = ({ children }) => {
         <header className="flex items-center justify-between py-6">
           <div>
             <Link href="/" aria-label="Ondiek's website">
-              <div className="text-primary-color dark:text-primary-color-dark flex items-center justify-between text-xl font-semibold">
-                {`~${router.asPath}`}{' '}
-                <Typewriter
-                  options={{
-                    strings: [],
-                    autoStart: true,
-                    loop: true,
-                  }}
-                />
-              </div>
+              <Logo className="h-50" />
             </Link>
           </div>
           <div className="flex items-center text-base leading-5">
