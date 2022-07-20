@@ -1,0 +1,142 @@
+---
+title: An Introduction to DevOps With CircleCI
+date: '2022-06-14'
+tags: ['Python', 'DevOps', 'CI/CD', 'CircleCI']
+draft: false
+summary: 'A detailed guide on the concept of CI/CD with CircleCI and how to set up a pipeline on CircleCI to execute tests automatically.'
+---
+
+Originally posted on [She Code Africa, Nairobi blog.](https://scanairobi.hashnode.dev/an-introduction-to-devops-with-circleci)
+
+## Continuous Integration With CircleCI
+
+# Introduction
+
+Modern software development is a collaborative activity in which development teams work on a shared code base, with each member contributing updates, new features, and fixing bugs. In a collaborative setting where code quality is crucial, manual operations in the software cycle such as testing are not necessarily a fair practice.
+
+In this article, we'll go through the concept of CI/CD with CircleCI and how to set up a pipeline on CircleCI to execute tests automatically.
+
+# Prerequisites
+
+Let's start by ensuring you have the following requirements in place.
+
+- A [CircleCI](https://circleci.com/signup/) account
+- A [GitHub](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home) account
+- An understanding of how pipelines work
+- A clone of our [demo application](https://github.com/Dev-Elie/Flask-API-boilerplate)
+
+Do you like coffee? Fill your coffee mug; if coffee isn't your jam, grab your favourite beverage and join me.
+
+# What Is CI/CD?
+
+Continuous/constant integration is abbreviated as CI, while continuous delivery/deployment is abbreviated as the CD. Both are essential components of the DevOps lifecycle.
+
+**Continuous integration** is a practice that occurs when a developer commits code changes to GitHub or another code repository. As a result of this event, specific actions are triggered that check the code to ensure that it integrates easily with the existing codebase. This could happen frequently or at predetermined periods. The primary goal is to uncover integration issues and enforce quality checks to establish greater cohesiveness and development collaboration.
+
+![Hybrid CircleCI (3).png](https://cdn.hashnode.com/res/hashnode/image/upload/v1654863199740/AU3iwsX85.png)
+
+After successful integration, **continuous delivery** occurs. That could be after all tests, lint checks, and so on. At this point, everyone is confident in the software's quality because all conditions for its final release have been met. So, what comes next? If a new feature is incorporated, updates can now be confidently released to customers in a timely and sustainable manner. The continuous deployment/release is entirely automated and requires no user intervention.
+
+![Hybrid CircleCI (4).png](https://cdn.hashnode.com/res/hashnode/image/upload/v1654864011723/0Az9B89LI.png)
+
+The automated process involving CI and CD is known as the CI/CD pipeline.
+
+# Why CI/CD?
+
+How does CI/CD improve the software development cycle now that we've seen it? What are the advantages over other methods? So, let's look at the power that CI/CD possesses.
+
+1. **Quick Delivery**: Making changes, reverting changes, and deploying hotfixes are all accomplished with a single click, triggered by a developer action.
+2. **Reliability**: At the heart of automation is the elimination of human inefficiencies. With CI/CD, testers can detect bugs early in the development process and fix them rapidly.
+3. **High-quality code**: CI/CD allows developers to contribute code to a centralized repository where they can collaborate on detecting and correcting the most severe bugs.
+4. **Customer Satisfaction**: Because things are moving so quickly, clients are happy, and happy clients consume more and help you build a brand.
+5. **Increased workforce productivity**: Automated tests, deployments, and collaboration foster a positive work environment and flexible development that keeps the needle moving.
+
+Everyone is happy and productive when CI/CD is implemented.
+
+Congratulations on making it to this point in the article. In the following sections, we'll understand CircleCI, and I will demonstrate how to integrate CircleCI with GitHub and set up a pipeline on CircleCI.
+
+# What Is CircleCI?
+
+To store your code, you'll need a code repository, such as GitHub or GitLab, which are platforms for storing, tracking, and collaborating on software projects. CircleCI, like the previous two code hubs, is a platform that enables development teams to automate build, test, and deployment.
+
+CircleCI needs to get your code from code repositories like GitHub and Bitbucket to build, test, and deploy. You, as a developer, must instruct CircleCI on how to do so by providing some configurations.
+
+# Understanding the CircleCI Configuration
+
+While CircleCI is intelligent enough to perform automated DevOps practices, it must know how to operate on that code. For example, when setting up a CI/CD pipeline for a Python app, you must run tests, and CircleCI must know the location of your requirements file, the testing library you use, and so on.
+
+CircleCI runs pipelines from the `config.yml` file, a YAML file stored in the root of your project directory in a directory called `.circleci` that defines your project's entire pipeline. It contains the conditions you specify for a pipeline to run, such as the order, commands, and so on.
+
+You will frequently come across the following terms while working with the config.yml file.
+
+1. **version**: denotes the CircleCI version
+2. **command**: the actual action to perform, for example, `pip install requirements.txt.`
+3. **steps**: an ordered list of how commands are executed
+4. **jobs**: is a collection of steps executed as a unit, each with a unique name.
+5. **Docker**: An execution environment that defines the underlying technology or environment to run a job.
+6. **workflows**: a set of rules defining a collection of jobs and their run order
+
+To get things right, let's look at the configuration we'll use in the following steps. It is located in the root directory of the [cloned project](https://github.com/Dev-Elie/Flask-API-boilerplate/blob/main/.circleci/config.yml) in a folder `.circleci`.
+
+```YAML
+version: 2 # CircleCI version
+jobs:
+  build: # name of this job
+    docker: # executor
+      - image: cimg/python:3.9.2 # Docker image(CircleCI authored) version
+
+    steps:
+      - checkout # Retrieve code from GitHub
+      # Create a venv, activate it, then install the pip packages
+      - run:
+          name: Install pip packages # name of this action
+          command: |
+            python3 -m venv venv
+            . venv/bin/activate
+            pip install -r requirements.txt
+      # run tests using pytest in verbose mode
+      - run:
+          name: Test with pytest
+          command: |
+            . venv/bin/activate
+            pytest -v
+
+```
+
+Above, we define the CircleCI version first, then specify the job and assign it an execution environment, in this case, Docker. Next, we list the actions under the steps key in the correct sequence: first, we pull the code from GitHub; then, just like in a local environment, we create a virtual environment, activate it, and install the pip packages from the requirements file. Finally, we can use the pytest command to run tests.
+
+That appeared oversimplified.
+
+For more information, see the [Introduction to YAML Configurations](https://circleci.com/docs/2.0/introduction-to-yaml-configurations/) guide.
+
+# Setting Up a CI/CD Pipeline in CircleCI
+
+Make sure you've pushed the cloned project to your GitHub account before you start working with CircleCI. It is already fully configured to run automated tests.
+
+Is that all done? Set up a continuous integration pipeline as follows.
+
+**Step 1:** Log in to your CircleCI account, pick your project from the **Projects** tab, and then click **Set Up Project**.
+
+![sss.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1654860472422/bNNbhadaS.png)
+
+**Step 2:** In the pop-up window that appears, the first option is selected by default; in the input box with a placeholder **"From which branch,"** type in the name of the branch you pushed your project to on GitHub; by default, you must have pushed it to main; type in **"main"**. Click **"Set Up Project"**.
+
+![2.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1654858686429/C0fyvnJOW.png)
+
+CircleCI will smartly trigger your workflow, and the status of your workflow run will be displayed on the next page.
+
+Once your workflow has succeeded, you can click on the green status badge to get more insights into your job(s).
+
+![success.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1654859868391/SFcYCp_0B.png)
+
+![Untitled design (13).png](https://cdn.hashnode.com/res/hashnode/image/upload/v1654860274175/Kn34chB2Q.png)
+
+Congratulations! That's all about setting up a CI pipeline.
+
+You've made it to the end of this article. Did you discover anything new or find what you were looking for? I certainly hope so.
+
+# Conclusion
+
+This article taught us why CI/CD is essential, what it is, and how to set up a pipeline on CircleCI. We successfully configured a CircleCI pipeline to run tests on our Python application. Before that, we spent some time learning the terminology used in the CircleCI configuration. You also understand the CircleCI configuration file's structure and what it does. Automation is fun and interesting. That concludes this article; until next time, continue to learn and share your thoughts in the comments section.
+
+Have fun along the way.

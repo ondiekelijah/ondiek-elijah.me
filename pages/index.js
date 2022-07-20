@@ -4,6 +4,7 @@ import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
+import { RoughNotation } from 'react-rough-notation'
 
 import NewsletterForm from '@/components/NewsletterForm'
 
@@ -21,11 +22,44 @@ export default function Home({ posts }) {
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Latest
+          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
+            Hello, I&#39;m{' '}
+            <span className="text-primary-color dark:text-primary-color-dark">Ondiek</span> Elijah,
+            a{' '}
+            <RoughNotation
+              type="underline"
+              show={true}
+              color="#13b57b"
+              animationDelay={800}
+              animationDuration={1200}
+            >
+              software craftsman{' '}
+            </RoughNotation>
+            ,
+            <RoughNotation
+              type="underline"
+              show={true}
+              color="#00afef"
+              animationDelay={1400}
+              animationDuration={1200}
+            >
+              technical writer{' '}
+            </RoughNotation>
+            and a{' '}
+            <RoughNotation
+              type="underline"
+              show={true}
+              color="#FFb900"
+              animationDelay={1700}
+              animationDuration={1200}
+            >
+              community advocate.
+            </RoughNotation>
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            {siteMetadata.description}
+            Welcome to my blog where I share my thoughts, reflections, and everything related to
+            software development, DevOps, technical writing, and new technologies. Feel free to ask
+            questions, make comments, and share your thoughts...
           </p>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
@@ -91,11 +125,11 @@ export default function Home({ posts }) {
           </Link>
         </div>
       )}
-      {siteMetadata.newsletter.provider !== '' && (
+      {/* {siteMetadata.newsletter.provider !== '' && (
         <div className="flex items-center justify-center pt-4">
           <NewsletterForm />
         </div>
-      )}
+      )} */}
     </>
   )
 }

@@ -28,6 +28,8 @@ module.exports = {
         sans: ['InterVariable', ...defaultTheme.fontFamily.sans],
       },
       colors: {
+        // 'primary-color': '#1e90ff',
+        // 'primary-color-dark': '#13b57b',
         primary: colors.teal,
         gray: colors.neutral,
       },
