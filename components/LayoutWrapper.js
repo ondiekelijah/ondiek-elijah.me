@@ -17,7 +17,7 @@ const LayoutWrapper = ({ children }) => {
       <div className="flex h-screen flex-col justify-between">
         <header className="flex items-center justify-between py-6">
           <div>
-            <Link href="/" aria-label="Einar Gudni's website">
+            <Link href="/" aria-label="Ondiek's website">
               <div className="text-primary-color dark:text-primary-color-dark flex items-center justify-between text-xl font-semibold">
                 {`~${router.asPath}`}{' '}
                 <Typewriter
