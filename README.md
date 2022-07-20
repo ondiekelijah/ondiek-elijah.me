@@ -1,3 +1,5 @@
+Forked from [Tailwind Nextjs Starter Blog](https://github.com/timlrx/tailwind-nextjs-starter-blog)
+
 ## Quick Start Guide
 
 1. Try installing the starter using the new [Pliny project CLI](https://github.com/timlrx/pliny):
