@@ -3,7 +3,7 @@ title: Custom Alerts in Flask Using SweetAlert2
 date: '2021-07-20'
 tags: ['Python', 'Flask', 'Sweetalert2', 'Jinja']
 draft: false
-summary: 'Custom alerts in Flask Jinja templates using Sweetalert2'
+summary: 'This article describes how to use Sweetalert2 to create custom alerts in Flask Jinja templates. Learn how to display alerts in a way that users will appreciate.'
 ---
 
 Originally posted on [Hashnode.](https://develie.hashnode.dev/custom-alerts-in-flask-using-sweetalert2)

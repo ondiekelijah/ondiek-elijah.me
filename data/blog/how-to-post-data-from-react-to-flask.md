@@ -3,7 +3,7 @@ title: How to Post Data From React to Flask
 date: '2021-09-04'
 tags: ['Python', 'Flask', 'React', 'Web Dev', 'JavaScript', 'API']
 draft: false
-summary: 'An article on how to send data from a React frontend application to a Flask backend application (API).'
+summary: 'A how-to guide for sending data from a React frontend application to a Flask backend application (API).'
 ---
 
 Originally posted on [Dev blog.](https://dev.to/dev_elie/sending-data-from-react-to-flask-apm)

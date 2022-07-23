@@ -3,7 +3,8 @@ title: An Introduction to DevOps With CircleCI
 date: '2022-06-14'
 tags: ['Python', 'DevOps', 'CI/CD', 'CircleCI']
 draft: false
-summary: 'A detailed guide on the concept of CI/CD with CircleCI and how to set up a pipeline on CircleCI to execute tests automatically.'
+summary: 'A detailed guide on Continuous Integration(CI) and Continous Delivery/Deployment with CircleCI with a practical demo on how to set up a pipeline on CircleCI to execute tests automatically.
+.'
 ---
 
 Originally posted on [She Code Africa, Nairobi blog.](https://scanairobi.hashnode.dev/an-introduction-to-devops-with-circleci)

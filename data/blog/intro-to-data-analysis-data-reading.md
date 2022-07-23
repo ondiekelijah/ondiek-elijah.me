@@ -3,7 +3,7 @@ title: Intro to Data Analysis - Data Reading
 date: '2021-10-14'
 tags: ['Python', 'Data analysis', 'Pandas']
 draft: false
-summary: 'Quickstart on reading data from different sources including files and databases.'
+summary: 'A quick introduction to reading data from various sources, including files and databases, using pandas.'
 ---
 
 Originally posted on [Lux Tech Academy blog.](https://dev.to/luxacademy/intro-to-data-analysis-data-reading-2ncp)

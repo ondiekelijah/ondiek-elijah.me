@@ -3,7 +3,7 @@ title: Exploring Flask-SQLAlchemy Queries
 date: '2021-07-20'
 tags: ['Python', 'Flask', 'Flask-SQLAlchemy']
 draft: false
-summary: 'A detailed tutorial on most used Flask-SQLAlchemy queries '
+summary: 'A detailed walkthrough of the most commonly used Flask-SQLAlchemy queries. This tutorial is your cheatsheet for learning the most commonly used Flask-SQLAlchemy queries to make development easier.'
 ---
 
 Originally posted on [Hashnode.](https://develie.hashnode.dev/exploring-flask-sqlalchemy-queries)

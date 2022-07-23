@@ -3,7 +3,7 @@ title: Integration Testing With Pytest
 date: '2022-07-18'
 tags: ['Python', 'Flask', 'Integration testing', 'Unit tests']
 draft: false
-summary: 'A deep dive into Pytest and how to use it to perform integration testing'
+summary: 'An in-depth look at Pytest and how to use it for integration testing. In this article, we write tests for a Flask API.'
 ---
 
 Originally posted on [She Code Africa, Nairobi blog.](https://scanairobi.hashnode.dev/integration-testing-with-pytest)

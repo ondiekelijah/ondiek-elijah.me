@@ -3,7 +3,7 @@ title: How to Connect a React Frontend to a Flask Back-end
 date: '2021-08-31'
 tags: ['Python', 'Flask', 'Flask-SQLAlchemy', 'React']
 draft: false
-summary: 'A guide on how to connect a JavaScript(React) frontend application to a Python(Flask) back-end'
+summary: 'A step-by-step guide for connecting a JavaScript(React) frontend application to a Python(Flask) backend.'
 ---
 
 Originally posted on [Dev blog](https://dev.to/dev_elie/connecting-a-react-frontend-to-a-flask-backend-h1o)

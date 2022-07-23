@@ -1,9 +1,9 @@
 ---
 title: Building a Python Web Scraper in Flask
 date: '2021-09-07'
-tags: ['Python', 'Flask', 'Bs4']
+tags: ['Python', 'Flask', 'Bs4', 'Web']
 draft: false
-summary: 'A hands-on tutorial on how to build a web scrapper in Flask'
+summary: 'A hands-on tutorial for building a Python web scraper with the Flask framework and Beautiful Soup.'
 ---
 
 Originally posted on [Hashnode.](https://dev.to/dev_elie/building-a-python-web-scraper-in-flask-b87)
