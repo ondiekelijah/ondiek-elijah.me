@@ -3,8 +3,7 @@ title: Microservices with Node.js and RabbitMQ
 date: '2022-08-26'
 tags: ['JavaScript', 'Node.js', 'Express.js', 'RabbitMQ', 'Microservices']
 draft: false
-summary: 'Implementation of a microservice architecture using Node.js and RabbitMQ to create an eCommerce  platform
-.'
+summary: 'Implementation of a microservice architecture using Node.js and RabbitMQ to create an eCommerce  platform.'
 ---
 
 Originally posted on [She Code Africa, Nairobi blog.](https://scanairobi.hashnode.dev/microservices-with-nodejs-and-rabbitmq)
