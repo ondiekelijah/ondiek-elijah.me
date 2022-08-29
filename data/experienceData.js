@@ -3,7 +3,7 @@ const experienceData = [
     title: 'Software Engineer Intern',
     company: 'Itesyl Technologies',
     location: 'Remote, Kenya',
-    range: 'May 2022 - JUly 2022',
+    range: 'May 2022 - July 2022',
     url: 'https://itesyl.com/',
     text1:
       'Maintaining and implementing new features on the existing business API and WhatsApp bot.',
