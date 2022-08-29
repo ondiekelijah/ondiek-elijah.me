@@ -3,12 +3,12 @@ const experienceData = [
     title: 'Software Engineer Intern',
     company: 'Itesyl Technologies',
     location: 'Remote, Kenya',
-    range: 'May 2022 - Present',
+    range: 'May 2022 - JUly 2022',
     url: 'https://itesyl.com/',
     text1:
       'Maintaining and implementing new features on the existing business API and WhatsApp bot.',
     text2:
-      'Work with a variety of different technologies, such as, Node.js, Express.js, React, Bootstrap5, Flask, PostgreSQL to name a few.',
+      'Worked with a variety of different technologies, such as, Node.js, Express.js, React, Bootstrap5, Flask, PostgreSQL to name a few.',
     text3: 'Crafted a modern UI for Itesyl.com and kodeec.com.',
   },
   {
@@ -24,7 +24,7 @@ const experienceData = [
       'Documenting steps taken in making an application, testing, and Integrating with CircleCI.',
   },
   {
-    title: 'Freelance Web Developer',
+    title: 'Freelance Software Developer',
     company: 'Self-Employed',
     location: 'Nairobi, Kenya',
     range: 'April 2020 - Present',
