@@ -9,14 +9,13 @@ linkedin: https://www.linkedin.com/in/ondiek-elijah-2aaba4198/
 github: https://github.com/Dev-Elie
 ---
 
-Hello World! My name is **Ondiek Elijah Ochieng** aka **“Dev Elie”**
-I’m a **Software Engineer**, **a technical article writer** and a **community die-hard**.
+Hello World! My name is **Ondiek Elijah Ochieng** aka **“Dev Elie”**. I’m a **Software Engineer**, **a technical article writer** and a **community defender**.
 
 I have 3+ years of experience writing **Python** and **JavaScript** code, creating notable personal projects, doing excellent work for my clients, and experience working in a busy tech setting. I work as a contract technical writer, and my responsibilities include developing tutorial applications, writing tests, integrating with CircleCI and other CI/CD platforms, and documenting.
 
 As a big supporter of community service, I'm proud of my recent accomplishment as a speaker at the Safaricom Engineering Summit. This experience has heightened my public speaking strengths and looking forward to more. I also spoke on "Effective Testing with Python" at the 3rd Annual Pycon Conference, among other topics.
 
-I'm a FreeCodeCamp, SheCodeAfrica, Nairobi, and Lux Tech Academy contributor and an active Beta Microsoft Learn Student Ambassador, GDSC Lead, and AWS Community Builder.
+I'm a `FreeCodeCamp`, `SheCodeAfrica, Nairobi`, and `Lux Tech Academy` contributor and an active Beta `Microsoft Learn Student Ambassador`, `GDSC Lead`, and `AWS Community Builder`.
 
 During my years of professional development, I've been able to gain professional and practical knowledge of the following programming languages and tools.
 
