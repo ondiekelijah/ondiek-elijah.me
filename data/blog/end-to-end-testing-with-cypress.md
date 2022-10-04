@@ -3,7 +3,7 @@ title: End-To-End Testing With Cypress
 date: '2021-10-04'
 tags: ['Node.js', 'Express.js', 'React.js', 'Cypress']
 draft: false
-summary: 'In this blog post, we'll be looking at end-to-end testing with Cypress. We'll see how to set up Cypress and write some tests for a simple web application. By the end, you should have a good understanding of how Cypress works and how to use it to test your own web applications.'
+summary: 'In this blog post, we will be looking at end-to-end testing with Cypress. We will see how to set up Cypress and write some tests for a simple web application. By the end, you should have a good understanding of how Cypress works and how to use it to test your own web applications.'
 ---
 
 # Introduction
