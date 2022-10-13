@@ -23,6 +23,7 @@ During my years of professional development, I've been able to gain professional
 
 **Frameworks:** `Flask, FastAPI, React, Node.js, Express.js, Bootstrap5`
 
-**Tools and Others**: `Git, GitHub, Docker, AWS, Azure, Heroku, Digital Ocean, Sanity.io, GraphCMS, GraphQL, Netlify, CircleCI, Harness CI, MySQL, MongoDB and PostgreSQL databases, Cypress, Pact, Pytest, Jest, Chai, Mocha, Linux, Rest APIs`.
+**Tools and Skills**: `Git, GitHub, Docker, RabbitMQ, AWS, Azure, Heroku, Digital Ocean, Sanity.io, GraphCMS, GraphQL, Netlify, CircleCI, Harness CI, MySQL, MongoDB and PostgreSQL databases, Cypress, Pact, Pytest, Jest, Chai, Mocha, Linux, Microservices, REST and GraphQL APIs, Quality Assurance Testing(Manual and Automated), Technical Writing, and DevOps 101.`
+
 
 I'm actively looking for a new position as a Software Engineer and would appreciate being notified of any new openings, referrals, or recommendations.
