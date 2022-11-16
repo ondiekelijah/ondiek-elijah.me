@@ -9,7 +9,7 @@ linkedin: https://www.linkedin.com/in/ondiek-elijah-2aaba4198/
 github: https://github.com/Dev-Elie
 ---
 
-Hello World! My name is **Ondiek Elijah Ochieng** aka **“Dev Elie”**. I’m a **Software Engineer**, **a technical article writer** and a **community advocate**.
+Hello World! My name is **Ondiek Elijah Ochieng**. I’m a **Software Engineer**, **a technical article writer** and a **community advocate**.
 
 I'm a `FreeCodeCamp`, `SheCodeAfrica, Nairobi`, and `Lux Tech Academy` contributor and an active Beta `Microsoft Learn Student Ambassador`, `GDSC Lead`, and `AWS Community Builder`.
 
