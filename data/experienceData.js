@@ -1,5 +1,13 @@
 const experienceData = [
   {
+    title: 'Software Engineer',
+    company: 'Safaricom',
+    location: 'Remote, Kenya',
+    range: 'November 2022 - Present',
+    url: 'https://www.safaricom.co.ke/',
+    text1: '',
+  },
+  {
     title: 'Contract Technical Writer',
     company: 'Tech-Varcity',
     location: 'Remote, Kenya',
