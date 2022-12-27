@@ -5,10 +5,12 @@ const experienceData = [
     location: 'Remote, Kenya',
     range: 'November 2022 - Present',
     url: 'https://www.safaricom.co.ke/',
-    text1: '',
+    text1: 'Working with designers to translate visual designs into functional interfaces.',
+    text2: 'Designing and implementing user interfaces for web applications using React, Next.js and MUI.',
+    text3: 'Collaborating with backend developers to integrate frontend interfaces with server-side logic & testing and debugging frontend code.'
   },
   {
-    title: 'Contract Technical Writer',
+    title: 'Technical Writer',
     company: 'Tech-Varcity',
     location: 'Remote, Kenya',
     range: 'January 2022 - Present',
@@ -26,9 +28,9 @@ const experienceData = [
     range: 'May 2022 - July 2022',
     url: 'https://itesyl.com/',
     text1:
-      'Maintaining and implementing new features on the existing business API and WhatsApp bot.',
+      'Maintained and implemented new features on the existing business API and WhatsApp bot.',
     text2:
-      'Work with a variety of different technologies, such as, Node.js, Express.js, React, Bootstrap5, Flask, PostgreSQL to name a few.',
+      'Worked with a variety of different technologies, such as, Node.js, Express.js, React, Bootstrap5, Flask, PostgreSQL to name a few.',
     text3: 'Crafted a modern UI for Itesyl.com and kodeec.com.',
   },
   {
