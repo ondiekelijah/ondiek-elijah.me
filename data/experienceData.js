@@ -32,17 +32,7 @@ const experienceData = [
     text2:
       'Worked with a variety of different technologies, such as, Node.js, Express.js, React, Bootstrap5, Flask, PostgreSQL to name a few.',
     text3: 'Crafted a modern UI for Itesyl.com and kodeec.com.',
-  },
-  {
-    title: 'Freelance Software Developer',
-    company: '',
-    location: 'Nairobi, Kenya',
-    range: 'April 2020 - Present',
-    url: '',
-    text1:
-      'Building modern websites for clients using HTML, CSS, JavaScript, React, Bootstrap5, Sanity CMS and GraphCMS.',
-    text2: 'Some of the clients I have worked with include: Memaafrica, Jasiri and Wengiweb.',
-  },
+  }
 ]
 
 export default experienceData
