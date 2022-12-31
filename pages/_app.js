@@ -24,7 +24,7 @@ export default function App({ Component, pageProps }) {
       </Head>
       {isDevelopment && isSocket && <ClientReload />}
       <Analytics />
-      {enableGoogleAdsense()}
+      <enableGoogleAdsense />
       <LayoutWrapper>
         <Component {...pageProps} />
       </LayoutWrapper>
