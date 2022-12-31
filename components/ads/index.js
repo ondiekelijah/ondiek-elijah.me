@@ -1,4 +1,4 @@
-export function enableGoogleAdsense () {
+function enableGoogleAdsense () {
     const head = document.getElementsByTagName('head')[0]
     const scriptElement = document.createElement(`script`)
     scriptElement.type = `text/javascript`
@@ -7,3 +7,5 @@ export function enableGoogleAdsense () {
     scriptElement.crossOrigin = "anonymous"
     head.appendChild(scriptElement);
 }
+
+export default enableGoogleAdsense
