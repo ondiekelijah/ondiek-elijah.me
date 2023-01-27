@@ -4,9 +4,9 @@ avatar: /static/images/ondiek.png
 occupation: Software Engineer, Technical Writer & Community Advocate
 company:
 email: eochieng9448@gmail.com
-twitter: https://twitter.com/ondi3k
+twitter: https://twitter.com/@ondiek_ochieng
 linkedin: https://www.linkedin.com/in/ondiek-elijah-2aaba4198/
-github: https://github.com/Dev-Elie
+github: https://github.com/ondiekelijah
 ---
 
 Hello World! My name is **Ondiek Elijah Ochieng**. I’m a **Software Engineer**, **a technical article writer** and a **community advocate**.
