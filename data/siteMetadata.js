@@ -11,8 +11,8 @@ const siteMetadata = {
   image: '/static/images/ondiek.png',
   socialBanner: '/static/images/twitter-card.png',
   email: 'eochieng9448@gmail.com',
-  github: 'https://github.com/Dev-Elie',
-  twitter: 'https://twitter.com/ondi3k',
+  github: 'https://github.com/ondiekelijah',
+  twitter: 'https://twitter.com/ondiek_ochieng',
   linkedin: 'https://www.linkedin.com/in/ondiek-elijah-2aaba4198/',
   locale: 'en-US',
   analytics: {
