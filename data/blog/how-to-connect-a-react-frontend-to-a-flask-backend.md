@@ -51,7 +51,7 @@ Also, I'll assume you're familiar with Flask and React.
 └── README.md
 ```
 
-For this tutorial, setup instructions and scripts can be found on my [GitHub](https://github.com/Dev-Elie/Connecting-React-Frontend-to-a-Flask-Backend).
+For this tutorial, setup instructions and scripts can be found on my [GitHub](https://github.com/ondiekelijah/Connecting-React-Frontend-to-a-Flask-Backend).
 
 ## Part 1.
 

@@ -4,7 +4,7 @@ const projectsData = [
     description: `A simple Whatsapp bot for guiding students built with Twilio as the messaging client, 
     Google's Dialog flow for intent filtering, and runs on a Node.js server.`,
     imgSrc: '/static/images/projects/bot.png',
-    href: 'https://github.com/Dev-Elie/Student_assistant_bot',
+    href: 'https://github.com/ondiekelijah/Student_assistant_bot',
   },
   {
     title: 'GraphQL e-commerce API',
@@ -12,7 +12,7 @@ const projectsData = [
     query language. Optimizes 
     CRUD operation queries and provides support for product reviews and ratings..`,
     imgSrc: '/static/images/projects/graphql-api.png',
-    href: 'https://github.com/Dev-Elie/GraphQL-e-commerce-API',
+    href: 'https://github.com/ondiekelijah/GraphQL-e-commerce-API',
   },
   {
     title: 'AWS Serverless Expense Tracker API',
@@ -20,7 +20,7 @@ const projectsData = [
     and Dynamodb are among the components. 
     Supports basic CRUD operations made possible by AWS lambda functions. Built with Node.js.`,
     imgSrc: '/static/images/projects/aws-serverless-api.png',
-    href: 'https://github.com/Dev-Elie/AWS-Serverless-API',
+    href: 'https://github.com/ondiekelijah/AWS-Serverless-API',
   },
   {
     title: 'Social Media API',
@@ -28,7 +28,7 @@ const projectsData = [
     post creation, update, and deletion, 
     as well as upvotes and downvotes. Built with FastAPI and powered by a Postgres database..`,
     imgSrc: '/static/images/projects/social-media-api.png',
-    href: 'https://github.com/Dev-Elie/Social-Media-App-API',
+    href: 'https://github.com/ondiekelijah/Social-Media-App-API',
   },
   {
     title: 'Bookmarks Manager API',
@@ -36,20 +36,20 @@ const projectsData = [
     User creation and authentication with access tokens, adding bookmarks, updating, deleting, and viewing existing 
     bookmarks are all features. It also offers bookmark link visit tracking and statistics.`,
     imgSrc: '/static/images/projects/bookmarks-api.png',
-    href: 'https://github.com/Dev-Elie/BookmarksAPI',
+    href: 'https://github.com/ondiekelijah/BookmarksAPI',
   },
   {
     title: 'Threaded Replies App',
     description: `A Python Flask app with a MySQL database that implements a
      nested/threaded replies commenting engine. SQLAlchemy is used as the ORM.`,
     imgSrc: '/static/images/projects/threaded-replies.png',
-    href: 'https://github.com/Dev-Elie/Threaded-Replies-using-Flask-SQLAlchemy-MySQL',
+    href: 'https://github.com/ondiekelijah/Threaded-Replies-using-Flask-SQLAlchemy-MySQL',
   },
   {
     title: 'Web Scrapper',
     description: `A Basic Web Crawler. Using a URL and an HTML tag supplied by the user, scrapes the page and returns the total number of elements fetched before displaying the scraped results.`,
     imgSrc: '/static/images/projects/web-scrapper.png',
-    href: 'https://github.com/Dev-Elie/Simple-Web-Crawler',
+    href: 'https://github.com/ondiekelijah/Simple-Web-Crawler',
   },
   {
     title: 'Mema Africa Website',

@@ -30,7 +30,7 @@ I recommend you have the following requirements for an excellent read as you cod
 - [Python](https://www.python.org/downloads/) 3+ installed in your environment.
 - Working knowledge of any Python web framework. Flask is used in this tutorial.
 - An understanding of REST APIs.
-- A clone of the demo [API](https://github.com/Dev-Elie/basic-Flask-API) for which we'll write tests.
+- A clone of the demo [API](https://github.com/ondiekelijah/basic-Flask-API) for which we'll write tests.
 - An HTTP client of your choice to try the API endpoints before testing, e.g. [Postman].(https://www.postman.com/downloads/)
 
 # Integration Vs. Unit Testing
@@ -130,7 +130,7 @@ class TestingConfig(DevelopmentConfig):
     SQLALCHEMY_DATABASE_URI = <path_to_test_db>
 ```
 
-Refer to the complete [configuration file](https://github.com/Dev-Elie/basic-Flask-API/blob/main/config.py).
+Refer to the complete [configuration file](https://github.com/ondiekelijah/basic-Flask-API/blob/main/config.py).
 
 ### Pytest Fixtures
 
@@ -144,7 +144,7 @@ Fixtures feed test data, such as database connections, URLs to test, and input d
 
 Fixtures declared in the `tests/conftest.py` file become globally accessible to all test files in the test package, eliminating the need to import fixtures when required.
 
-Let's deconstruct the [conftest.py](https://github.com/Dev-Elie/basic-Flask-API/blob/main/tests/conftest.py) file.
+Let's deconstruct the [conftest.py](https://github.com/ondiekelijah/basic-Flask-API/blob/main/tests/conftest.py) file.
 
 #### 1. Creating a Test Client
 

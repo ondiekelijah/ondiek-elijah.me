@@ -6,7 +6,7 @@ const siteMetadata = {
   language: 'en-us',
   theme: 'dark', // system, dark or light
   siteUrl: 'https://www.ondiek-elijah.me/',
-  siteRepo: 'https://github.com/Dev-Elie/ondiek-elijah',
+  siteRepo: 'https://github.com/ondiekelijah/ondiek-elijah',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/ondiek.png',
   socialBanner: '/static/images/twitter-card.png',

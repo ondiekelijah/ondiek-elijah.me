@@ -10,7 +10,7 @@ Originally posted on [Dev blog.](https://dev.to/dev_elie/sending-data-from-react
 
 In our previous [article](https://dev.to/dev_elie/connecting-a-react-frontend-to-a-flask-backend-h1o) on connecting a React frontend to a Flask backend, we saw how to fetch data from Flask API and then displaying it on the browser, in this continuation article we'll explore how to send data to a Flask backend from React, then update the UI with the new data.
 
-Check my [GitHub](https://github.com/Dev-Elie/Sending-Data-from-React-to-Flask) for the complete codes used in this guide.
+Check my [GitHub](https://github.com/ondiekelijah/Sending-Data-from-React-to-Flask) for the complete codes used in this guide.
 
 ## Part 1
 

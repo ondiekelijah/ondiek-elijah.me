@@ -24,7 +24,7 @@ The following are the requirements for this tutorial;
 
 - Sound knowledge of JavaScript and [React](https://reactjs.org/).
 - The latest version of [Node.js](https://nodejs.org/en/) installed.
-- A clone of the [demo application](https://github.com/Dev-Elie/e2e-testing-with-Cypress) up and running (both the backend and frontend services).
+- A clone of the [demo application](https://github.com/ondiekelijah/e2e-testing-with-Cypress) up and running (both the backend and frontend services).
 
 # Why Use Cypress for E2E Testing?
 

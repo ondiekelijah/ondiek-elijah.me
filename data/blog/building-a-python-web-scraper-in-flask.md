@@ -29,9 +29,9 @@ In this tutorial, we'll look at web scraping using Beautiful Soup and [Requests]
 
 ### 1. Project setup.
 
-For this project, I'll concentrate on backend functionality, as well as jinja templating and looping. I won't go into detail about CSS or the rest of the HTML code.Find the full project codes [here](https://github.com/Dev-Elie/Simple-Web-Crawler).
+For this project, I'll concentrate on backend functionality, as well as jinja templating and looping. I won't go into detail about CSS or the rest of the HTML code.Find the full project codes [here](https://github.com/ondiekelijah/Simple-Web-Crawler).
 
-To get this project running on your local machine follow the steps [here](https://github.com/Dev-Elie/Simple-Web-Crawler#readme).
+To get this project running on your local machine follow the steps [here](https://github.com/ondiekelijah/Simple-Web-Crawler#readme).
 
 > Don't worry if you don't understand what's going on behind the scenes now that your project is up and running. Fill your coffee mug, because things are about to get interesting.
 

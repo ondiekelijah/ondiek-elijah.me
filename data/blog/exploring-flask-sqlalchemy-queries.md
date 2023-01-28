@@ -18,7 +18,7 @@ will help you with your next project or learning series.
 
 Before you begin, create a test environment for the tutorial if you want to test each of the queries as you go. Otherwise, explore Flask-SQLAlchemy queries.
 
-Setup instructions can be found [here](https://github.com/Dev-Elie/Exploring-Flask_SQLAlchemy-Queries/tree/main#readme)
+Setup instructions can be found [here](https://github.com/ondiekelijah/Exploring-Flask_SQLAlchemy-Queries/tree/main#readme)
 
 ![flask-sqlalchemy-title.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1628888654483/22dxtr56T.png)
 
@@ -239,7 +239,7 @@ Hello Geek 3 Happy holidays Geek 3
 
 To explore more on SQLAlchemy also read [Getting Started with SQLAlchemy for Database Operations In Python](https://dev.to/grayhat/getting-started-with-sqlalchemy-for-database-operations-in-python-5b5p)
 
-Codes available on my [GitHub](https://github.com/Dev-Elie/Exploring-Flask_SQLAlchemy-Queries)
+Codes available on my [GitHub](https://github.com/ondiekelijah/Exploring-Flask_SQLAlchemy-Queries)
 
 ### References
 

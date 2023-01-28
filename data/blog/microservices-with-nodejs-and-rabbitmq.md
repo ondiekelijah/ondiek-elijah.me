@@ -428,7 +428,7 @@ Send a POST request to the endpoint `http://localhost:3001/products/buy` as show
 ![test2.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1661352701056/TENfBB35g.png)
 That works too!
 
-The complete source code is available [here](https://github.com/Dev-Elie/E-commerce-Microservice) for your reference.
+The complete source code is available [here](https://github.com/ondiekelijah/E-commerce-Microservice) for your reference.
 
 Congratulations, you have completed the tutorial. How did you find it? I'm sure it's fantastic.
 
