@@ -17,6 +17,6 @@ During my years of professional development, I've been able to gain professional
 
 **Languages:** `HTML5, CSS3, Python, JavaScript (ES6), SQL`
 
-**Frameworks:** `Flask, FastAPI, React, Node.js, Express.js, Bootstrap5`
+**Frameworks:** `Flask, FastAPI, React, Next.js, Node.js, Express.js, Bootstrap5, TailwindCSS`
 
 **Tools and Skills**: `Git, GitHub, Docker, RabbitMQ, AWS, Azure, Heroku, Digital Ocean, Sanity.io, GraphCMS, GraphQL, Netlify, CircleCI, Harness CI, MySQL, MongoDB and PostgreSQL databases, Cypress, Pact, Pytest, Jest, Chai, Mocha, Linux, Microservices, REST and GraphQL APIs, Quality Assurance Testing(Manual and Automated), Technical Writing, and DevOps 101.`
