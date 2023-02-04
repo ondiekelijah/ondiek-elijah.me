@@ -11,12 +11,12 @@ github: https://github.com/ondiekelijah
 
 Hello World! My name is **Ondiek Elijah Ochieng**. I’m a **Software Engineer**, **a technical article writer** and a **community advocate**.
 
-I'm a `FreeCodeCamp`, `SheCodeAfrica, Nairobi`, and `Lux Tech Academy` contributor and an active Beta `Microsoft Learn Student Ambassador`, `GDSC Lead`, and `AWS Community Builder`.
+As an active member of the tech community, I have made significant contributions through my roles as an author at SheCodeAfrica, Nairobi, a visual designer at Lux Tech Academy, a gold Microsoft Learn Student Ambassador, GDSC Lead, and AWS Community Builder. Additionally, I have shared my expertise as a guest author for [ContentLab](https://contentlab.com/) and [Pieces](pieces.app). Through these roles, I strive to empower and inspire individuals to learn and grow in the tech ecosystem.
 
 During my years of professional development, I've been able to gain professional and practical knowledge of the following programming languages and tools.
 
 **Languages:** `HTML5, CSS3, Python, JavaScript (ES6), SQL`
 
-**Frameworks:** `Flask, FastAPI, React, Node.js, Express.js, Bootstrap5`
+**Frameworks:** `Flask, FastAPI, React, Next.js, Node.js, Express.js, Bootstrap5, TailwindCSS`
 
 **Tools and Skills**: `Git, GitHub, Docker, RabbitMQ, AWS, Azure, Heroku, Digital Ocean, Sanity.io, GraphCMS, GraphQL, Netlify, CircleCI, Harness CI, MySQL, MongoDB and PostgreSQL databases, Cypress, Pact, Pytest, Jest, Chai, Mocha, Linux, Microservices, REST and GraphQL APIs, Quality Assurance Testing(Manual and Automated), Technical Writing, and DevOps 101.`
