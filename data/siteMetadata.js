@@ -12,7 +12,7 @@ const siteMetadata = {
   socialBanner: '/static/images/twitter-card.png',
   email: 'eochieng9448@gmail.com',
   github: 'https://github.com/ondiekelijah',
-  twitter: 'https://twitter.com/ondiek_ochieng',
+  twitter: 'https://twitter.com/0ndiekElijah',
   linkedin: 'https://www.linkedin.com/in/ondiek-elijah-2aaba4198/',
   locale: 'en-US',
   analytics: {
