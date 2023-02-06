@@ -58,8 +58,8 @@ export default function Home({ posts }) {
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
             Welcome to my blog where I share my thoughts, reflections, and everything related to
-            software development, DevOps, technical writing, and new technologies. Feel free to ask
-            questions, make comments, and share your thoughts...
+            software development and new technologies. Feel free to ask
+            questions, make comments, and share your thoughts.
           </p>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
