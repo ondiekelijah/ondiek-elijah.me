@@ -5,7 +5,7 @@ occupation: Software Engineer, Technical Writer & Community Advocate
 company:
 email: eochieng9448@gmail.com
 twitter: https://twitter.com/0ndiekElijah
-linkedin: https://www.linkedin.com/in/ondiek-elijah-2aaba4198/
+linkedin: https://www.linkedin.com/in/ondiek-elijah/
 github: https://github.com/ondiekelijah
 ---
 
