@@ -1,15 +1,5 @@
 const experienceData = [
   {
-    title: 'Software Engineer',
-    company: 'Safaricom',
-    location: 'Hybrid, Kenya',
-    range: 'November 2022 - Present',
-    url: 'https://www.safaricom.co.ke/',
-    text1: 'Working with designers to translate visual designs into functional interfaces.',
-    text2: 'Designing and implementing user interfaces for web applications using React, Next.js and MUI.',
-    text3: 'Collaborating with backend developers to integrate frontend interfaces with server-side logic & testing and debugging frontend code.'
-  },
-  {
     title: 'Author',
     company: 'Educative Inc',
     location: 'Remote, Kenya',
@@ -28,6 +18,16 @@ const experienceData = [
     text1: 'Creating articles that focus on automation testing.',
     text2: 'Researching and writing high-quality content that provides valuable insights into the latest trends and best practices in automation testing.',
     text3: 'Working closely with subject matter experts and other stakeholders to ensure my articles are accurate, informative, and engaging.',
+  },
+  {
+    title: 'Software Engineer',
+    company: 'Safaricom',
+    location: 'Hybrid, Kenya',
+    range: 'November 2022 - Present',
+    url: 'https://www.safaricom.co.ke/',
+    text1: 'Working with designers to translate visual designs into functional interfaces.',
+    text2: 'Designing and implementing user interfaces for web applications using React, Next.js and MUI.',
+    text3: 'Collaborating with backend developers to integrate frontend interfaces with server-side logic & testing and debugging frontend code.'
   },
   {
     title: 'Technical Writer',
