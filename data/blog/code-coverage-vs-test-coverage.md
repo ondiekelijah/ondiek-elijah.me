@@ -1,5 +1,5 @@
 ---
-title: Code Coverage vs Test Coverage What’s Better for Software Development?
+title: Code Coverage vs Test Coverage
 date: '2023-04-21'
 tags: ['Python', 'Pytest', 'Coverage']
 draft: false
