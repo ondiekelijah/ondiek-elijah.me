@@ -15,7 +15,7 @@ As an active member of the tech community, I have made significant contributions
 
 During my years of professional development, I've been able to gain professional and practical knowledge of the following programming languages and tools.
 
-**Languages:** I am proficient in `HTML5`, `CSS3`, `Python`, `JavaScript (ES6)`, and `SQL`.
+**Languages:** I am proficient in `HTML5`, `CSS3`, `Python`, `JavaScript (ES6), GraphQL`, and `SQL`.
 
 **Frameworks:** My experience extends to `Flask, FastAPI, React, Next.js, Node.js, Express.js, Bootstrap5, TailwindCSS,` and `Material UI`.
 
@@ -31,7 +31,7 @@ During my years of professional development, I've been able to gain professional
 
 **Architectures and APIs:** I have a firm grasp on different architectures such as `Microservices`. I've also developed APIs using both `REST` and `GraphQL` protocols.
 
-**Testing:** To ensure quality, I leverage automation testing tools like `Cypress, Pact, Pytest, Jest, Chai`, and `Mocha`.
+**Testing:** To ensure quality, I leverage automation testing tools like `Cypress, Pact, Pytest, Jest, React Testing Library, Chai`, and `Mocha`.
 
 **Headless CMS:** Familiar with `Sanity` and `HygraphCMS` for flexible and scalable content management.
 
