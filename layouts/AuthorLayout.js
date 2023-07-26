@@ -51,7 +51,7 @@ export default function AuthorLayout({ children, frontMatter }) {
             {/* Download CV button */}
             <div className="flex justify-center pt-8">
               <a
-                href="https://docs.google.com/document/d/18WYs7oGVHXzbfXjqZ3UQ9LloK9QFzERsb8TbHpanwRE/edit?usp=sharing"
+                href="https://docs.google.com/document/d/15EyX05Sg4k-fDOvEoEWjR53yjP_r_xHh9LBwLj3ldOE/edit?usp=sharing"
                 target="_blank"
                 className="bg-primary shadow-outline-teal inline-flex items-center
                 rounded-full px-4 py-3 text-sm font-semibold
