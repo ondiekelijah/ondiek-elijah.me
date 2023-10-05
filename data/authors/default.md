@@ -17,7 +17,7 @@ Greetings! 👋🏾 I'm Ondiek Elijah Ochieng, a Software Engineer with a flair 
 - **CI/CD**: Proficient with Git, GitHub, GitLab, CircleCI, and GitHub actions.
 - **Cloud**: AWS, Azure, Digital Ocean.
 - **Message Brokers**: RabbitMQ
-- **Containers**: Docker, RabbitMQ.
+- **Containers**: Docker.
 - **Databases**: Expertise in MySQL, PostgreSQL, and MongoDB.
 - **Operating Systems**: Skilled in Linux and Windows.
 - **Architectures**: Knowledgeable in Microservices, REST, and GraphQL APIs.
