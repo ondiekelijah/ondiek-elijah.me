@@ -16,11 +16,12 @@ Greetings! 👋🏾 I'm Ondiek Elijah Ochieng, a Software Engineer with a flair 
 - **Frameworks**: Flask, FastAPI, React, Next.js, Node.js, Bootstrap5, TailwindCSS, Material UI.
 - **CI/CD**: Proficient with Git, GitHub, GitLab, CircleCI, and GitHub actions.
 - **Cloud**: AWS, Azure, Digital Ocean.
+- **Message Brokers**: RabbitMQ
 - **Containers**: Docker, RabbitMQ.
 - **Databases**: Expertise in MySQL, PostgreSQL, and MongoDB.
 - **Operating Systems**: Skilled in Linux and Windows.
 - **Architectures**: Knowledgeable in Microservices, REST, and GraphQL APIs.
-- **Testing**: Proficient in tools like Cypress, Pytest, Jest, and more.
+- **Testing**: Proficient in Cypress, Pytest, RTL, Enzyme and Jest tools.
 - **CMS**: Experienced with Sanity and HygraphCMS.
 - **Technical Writing**: I pride myself on conveying complex ideas simply.
 
