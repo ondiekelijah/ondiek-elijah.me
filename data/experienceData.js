@@ -21,7 +21,7 @@ const experienceData = [
   },
   {
     title: 'Software Engineer',
-    company: 'Safaricom',
+    company: 'Safaricom PLC',
     location: 'Hybrid, Kenya',
     range: 'November 2022 - Present',
     url: 'https://www.safaricom.co.ke/',
@@ -33,7 +33,7 @@ const experienceData = [
     title: 'Technical Writer',
     company: 'Tech-Varcity',
     location: 'Remote, Kenya',
-    range: 'January 2022 - Present',
+    range: 'January 2022 - December 2022',
     url: 'https://twitter.com/TechVarcity',
     text1:
       'Responsible for coding tutorial applications utilising Python and JavaScript frameworks and writing integration tests using Pytest and Jest.',
