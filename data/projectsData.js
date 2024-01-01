@@ -8,7 +8,7 @@ const projectsData = [
   {
     title: 'Full Circle Health & Wellness Website',
     description: `A modern, content-rich blog and resource hub for holistic health, built using Next.js 14 and TypeScript, and powered by Sanity CMS for streamlined content management and delivery.`,
-    imgSrc: '/static/images/projects/bot.png',
+    imgSrc: '/static/images/projects/full-circle.webp',
     href: 'https://www.fullcirclehealthandfitness.com/',
   },
   {
