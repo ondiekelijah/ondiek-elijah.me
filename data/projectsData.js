@@ -1,5 +1,17 @@
 const projectsData = [
   {
+    title: 'Mix & Pix Store',
+    description: `An e-commerce solution offering personalized apparel, integrating Shopify for seamless online retail, enriched with user-driven style customization.`,
+    imgSrc: '/static/images/projects/mix-pix.webp',
+    href: 'https://mixandpix.com/',
+  },
+  {
+    title: 'Full Circle Health & Wellness Website',
+    description: `A modern, content-rich blog and resource hub for holistic health, built using Next.js 14 and TypeScript, and powered by Sanity CMS for streamlined content management and delivery.`,
+    imgSrc: '/static/images/projects/bot.png',
+    href: 'https://www.fullcirclehealthandfitness.com/',
+  },
+  {
     title: 'Student Assistant Chat Bot',
     description: `A simple Whatsapp bot for guiding students built with Twilio as the messaging client, 
     Google's Dialog flow for intent filtering, and runs on a Node.js server.`,
