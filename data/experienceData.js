@@ -3,14 +3,14 @@ const experienceData = [
     title: 'Author',
     company: 'Educative Inc',
     location: 'Remote, Kenya',
-    range: 'February 2023 - Present',
+    range: 'February 2023 - March 2024',
     url: 'https://www.educative.io/',
     text1: 'Creating high-quality educational content that is designed to help learners improve their skills and knowledge in various fields.',
     text2: 'Contributing to the development of comprehensive courses that are tailored to meet the needs of learners at different levels, from beginners to advanced learners.',
     text3: 'Through my work at Educative.io, I am committed to empowering individuals and organizations with the knowledge and skills they need to succeed in a rapidly changing world.'
   },
   {
-    title: 'Technical Writer',
+    title: 'Guest Technical Author',
     company: 'Draft.dev',
     location: 'Remote, Kenya',
     range: 'February 2023 - Present',
