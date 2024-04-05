@@ -24,7 +24,7 @@ export default function Home({ posts }) {
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
             Hello, I&#39;m{' '}
-            <span className="text-primary-color dark:text-primary-color-dark">Ondiek</span> Elijah,
+            <span className="text-primary-color dark:text-primary-color-dark">Elijah</span> Ondiek,
             a{' '}
             <RoughNotation
               type="underline"
