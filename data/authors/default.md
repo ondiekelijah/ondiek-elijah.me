@@ -1,5 +1,5 @@
 ---
-name: Ondiek Elijah
+name: Elijah Ondiek
 avatar: /static/images/ondiek.png
 occupation: Software Engineer, Technical Writer & Community Advocate
 company:
@@ -9,7 +9,7 @@ linkedin: https://www.linkedin.com/in/ondiek-elijah/
 github: https://github.com/ondiekelijah
 ---
 
-Greetings! 👋🏾 I'm Ondiek Elijah Ochieng, a Software Engineer with a flair for technical writing and community advocacy. My contributions span from authoring for `SheCodeAfrica, Nairobi` to visual design at `Lux Tech Academy`. Additionally, I've been recognized as a `Microsoft Learn Student Ambassador`, `GDSC Lead`, and an `AWS Community Builder`. My writings for `Educative Inc` and `Draft.dev` further showcase my commitment to fostering knowledge and growth in the tech community.
+Greetings! 👋🏾 I'm Elijah Ochieng Ondiek, a Software Engineer with a flair for technical writing and community advocacy. My contributions span from authoring for `SheCodeAfrica, Nairobi` to visual design at `Lux Tech Academy`. Additionally, I've been recognized as a `Microsoft Learn Student Ambassador`, `GDSC Lead`, and an `AWS Community Builder`. My writings for `Educative Inc` and `Draft.dev` further showcase my commitment to fostering knowledge and growth in the tech community.
 
 **Skills & Proficiencies**:
 - **Languages**: HTML5, CSS3, Python, JavaScript (ES6), GraphQL, SQL.
