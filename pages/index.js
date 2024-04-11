@@ -21,31 +21,20 @@ export default function Home({ posts }) {
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <div className="space-y-2 pt-6 pb-8 md:space-y-5">
+        <div className="space-y-2 pb-8 pt-6 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
             Hello, I&#39;m{' '}
-            <span className="text-primary-color dark:text-primary-color-dark">Elijah</span> Ondiek,
-            a{' '}
+            <span className="text-primary-color dark:text-primary-color-dark">Elijah</span> Ondiek.
+            <br />I architect{' '}
             <RoughNotation
-              type="underline"
-              show={true}
-              color="#13b57b"
-              animationDelay={800}
-              animationDuration={1200}
-            >
-              software craftsman{' '}
-            </RoughNotation>
-            ,
-            <RoughNotation
-              type="underline"
+              type="circle"
               show={true}
               color="#00afef"
               animationDelay={1400}
               animationDuration={1200}
             >
-              technical writer{' '}
+              web{' '}
             </RoughNotation>
-            and a{' '}
             <RoughNotation
               type="underline"
               show={true}
@@ -53,13 +42,14 @@ export default function Home({ posts }) {
               animationDelay={1700}
               animationDuration={1200}
             >
-              community advocate.
+              {' '}
+              experiences.{' '}
             </RoughNotation>
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            Welcome to my blog where I share my thoughts, reflections, and everything related to
-            software development and new technologies. Feel free to ask
-            questions, make comments, and share your thoughts.
+            You've just clicked into my corner of the internet, where I spill the tea on software
+            development and the latest tech. Sip or spill some yourself; this is a judgement-free
+            zone (except for bad code).
           </p>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">

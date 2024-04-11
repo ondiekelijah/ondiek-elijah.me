@@ -9,7 +9,7 @@ import Head from 'next/head'
 
 import siteMetadata from '@/data/siteMetadata'
 import Analytics from '@/components/analytics'
-import enableGoogleAdsense from '@/components/ads'
+import EnableGoogleAdsense from '@/components/ads'
 import LayoutWrapper from '@/components/LayoutWrapper'
 import { ClientReload } from '@/components/ClientReload'
 
@@ -24,7 +24,7 @@ export default function App({ Component, pageProps }) {
       </Head>
       {isDevelopment && isSocket && <ClientReload />}
       <Analytics />
-      <enableGoogleAdsense />
+      <EnableGoogleAdsense />
       <LayoutWrapper>
         <Component {...pageProps} />
       </LayoutWrapper>
