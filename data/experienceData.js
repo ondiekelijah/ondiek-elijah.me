@@ -17,10 +17,11 @@ const experienceData = [
     location: 'Remote, Kenya',
     range: 'May 2022 - July 2022',
     url: 'https://itesyl.com/',
-    text1: 'Maintained and implemented new features on the existing business API and WhatsApp bot.',
+    text1: 'Backend Development and Support: Supported and enhanced the Real Estate FastAPI backend, integrating new features designed to streamline operations for caretakers and enhance overall functionality.',
     text2:
-      'Worked with a variety of technologies, such as, Node.js, Express.js, React, Bootstrap5, Flask, PostgreSQL to name a few.',
-    text3: 'Crafted a modern UI for Itesyl.com and kodeec.com.',
+      'WhatsApp Bot and Technology Integration: Overhauled the WhatsApp bot for Kodeec, an advanced business banking solution for the real estate sector, using Google Dialogflow. Ensured robust performance and extended bot capabilities using TypeScript, Node.js, and Express.',
+    text3: 'Web Design and User Experience: Revitalized the company’s existing website and the Kodeec platform, applying cutting-edge design and development practices. This work significantly improved user experience and functionality, tailoring both platforms to meet the specialized needs of real estate professionals.',
+    
   },
 ]
 
