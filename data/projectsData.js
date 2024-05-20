@@ -6,23 +6,9 @@ const projectsData = [
     href: 'https://mixandpix.com/',
   },
   {
-    title: 'Full Circle Health & Wellness Website',
-    description: `A modern, content-rich blog and resource hub for holistic health, built using Next.js 14 and TypeScript, and powered by Sanity CMS for streamlined content management and delivery.`,
-    imgSrc: '/static/images/projects/full-circle.webp',
-    href: 'https://www.fullcirclehealthandfitness.com/',
-  },
-  {
-    title: 'Student Assistant Chat Bot',
-    description: `A simple Whatsapp bot for guiding students built with Twilio as the messaging client, 
-    Google's Dialog flow for intent filtering, and runs on a Node.js server.`,
-    imgSrc: '/static/images/projects/bot.png',
-    href: 'https://github.com/ondiekelijah/Student_assistant_bot',
-  },
-  {
     title: 'GraphQL e-commerce API',
     description: `An e-commerce API that runs on a Node.js server and uses GraphQL as a 
-    query language. Optimizes 
-    CRUD operation queries and provides support for product reviews and ratings..`,
+    query language. Optimizes CRUD operation queries and provides support for product reviews and ratings..`,
     imgSrc: '/static/images/projects/graphql-api.png',
     href: 'https://github.com/ondiekelijah/GraphQL-e-commerce-API',
   },
@@ -41,6 +27,13 @@ const projectsData = [
     as well as upvotes and downvotes. Built with FastAPI and powered by a Postgres database..`,
     imgSrc: '/static/images/projects/social-media-api.png',
     href: 'https://github.com/ondiekelijah/Social-Media-App-API',
+  },
+  {
+    title: 'Student Assistant Chat Bot',
+    description: `A simple Whatsapp bot for guiding students built with Twilio as the messaging client, 
+    Google's Dialog flow for intent filtering, and runs on a Node.js server.`,
+    imgSrc: '/static/images/projects/bot.png',
+    href: 'https://github.com/ondiekelijah/Student_assistant_bot',
   },
   {
     title: 'Bookmarks Manager API',
@@ -62,6 +55,18 @@ const projectsData = [
     description: `A Basic Web Crawler. Using a URL and an HTML tag supplied by the user, scrapes the page and returns the total number of elements fetched before displaying the scraped results.`,
     imgSrc: '/static/images/projects/web-scrapper.png',
     href: 'https://github.com/ondiekelijah/Simple-Web-Crawler',
+  },
+  {
+    title: 'Full Circle Health & Wellness Website',
+    description: `A modern, content-rich blog and resource hub for holistic health, built using Next.js 14 and TypeScript, and powered by Sanity CMS for streamlined content management and delivery.`,
+    imgSrc: '/static/images/projects/full-circle.webp',
+    href: 'https://www.fullcirclehealthandfitness.com/',
+  },
+  {
+    title: 'Triotech Software Solutions Website',
+    description: `Triotech Software Solutions' official website, a software development company that provides custom software solutions for businesses.`,
+    imgSrc: '/static/images/projects/triotech.webp',
+    href: 'https://www.trio-techs.com/',
   },
   {
     title: 'Mema Africa Website',
