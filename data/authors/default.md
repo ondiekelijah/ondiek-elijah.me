@@ -13,8 +13,8 @@ Greetings! 👋🏾 I'm Elijah Ochieng Ondiek, a Software Engineer.
 
 **Skills & Proficiencies**:
 
-- **Languages**: HTML5, CSS3, Python, JavaScript (ES6), GraphQL, SQL.
-- **Frameworks**: Flask, FastAPI, React, Next.js, Node.js, Bootstrap5, TailwindCSS, Material UI.
+- **Languages**: HTML5, CSS3, Python, JavaScript (ES6), TypeScript, GraphQL, SQL.
+- **Frameworks**: Flask, FastAPI, React, Next.js, Node.js, Express.js, Bootstrap5, TailwindCSS, Material UI.
 - **CI/CD**: Proficient with Git, GitHub, GitLab, CircleCI, and GitHub actions.
 - **Cloud**: AWS, Azure, Digital Ocean.
 - **Message Brokers**: RabbitMQ
